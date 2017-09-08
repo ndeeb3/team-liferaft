@@ -31,8 +31,8 @@ public class Person5 {
 	 */
 	private String calc(String input) {
 		if (input.length() > 2)
-			return input.substring(2, input.length).concat(input.substring(0, 2));
-		return input
+			return input.substring(2, input.length()).concat(input.substring(0, 2));
+		return input;
 	}
 	
 	/**
